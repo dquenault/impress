@@ -1,0 +1,45 @@
+@font-face {
+    font-family: myriadpro;
+    src: url(fonts/MYRIADPRO-BOLD.otf);
+}
+
+.slide .circle {
+    border: 10px solid brown;
+    border-radius: 80px 80px 80px 80px;
+    padding: 45px 50px;
+    width: 100px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body {
+    background-color: black;
+    font-family: myriadpro;
+    color: whitesmoke;
+}
+
+.future p {
+    display: none;
+}
+
+.past p{
+    display: none;
+}
+
+.active span{
+    background: indianred;
+}
+
+.active p{
+    display: block;
+    font-size: 60px;
+    margin: 245px 0 20px;
+}
+
+.slide {
+    display: block;
+    width: 800px;
+    height: 600px;
+    text-align: center;
+}

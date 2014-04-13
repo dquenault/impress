@@ -27,6 +27,20 @@ body {
     display: none;
 }
 
+#overview.active{
+    display: block;
+}
+
+#overview p{
+    padding: 0px 0px 0px 0px;
+    margin: 245px 450px 200px 0px;
+    color: whitesmoke;
+}
+
+#overview.past{
+    display: none;
+}
+
 .active span{
     background: indianred;
 }

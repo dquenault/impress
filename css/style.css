@@ -1,0 +1,37 @@
+.slide {
+    display: block;
+    width: 1000px;
+    height: 799px;
+    background-color: darkgrey;
+    border: 5px solid darkgrey;
+    color: black;
+    text-align: center;
+}
+
+#slide1.h2 {
+    color: darkgrey;
+}
+
+body {
+    background-color: lightgray;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+}
+
+.impress-enabled .step.active {
+    opacity: 1;
+    border: none;
+}
+
+#overview {
+    display: none;
+}
+
+.impress-on-overview .step {
+    opacity: 1;
+    cursor: pointer;
+}

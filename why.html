@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>Why impress.js?</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div id="impress">
+    <div id="overview" class="step" data-scale="5">
+
+    </div>
+    <div id="slide1" class="step slide">
+        <h1>Presentations eh?</h1>
+        <h2>Why impress.js?</h2>
+    </div>
+    <div id="slide2" class="step slide" data-x="1500">
+        <p>Second slide</p>
+    </div>
+    <div id="slide3" class="step slide" data-x="3000">
+        <p>Let's try some rotations!</p>
+    </div>
+    <!--Rotate and fall-->
+    <div id="slide4" class="step" data-x="3000"  data-y="1500" data-rotate-z="90">
+        <p>Be careful!</p>
+    </div>
+
+    <div id="slide5" class="step" data-x="3000" data-y="3000" data-rotate-z="90">
+        <p>Ahhhh!</p>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="js/impress.js"></script>
+<script type="text/javascript">impress().init();</script>
+</body>
+
+</html>
